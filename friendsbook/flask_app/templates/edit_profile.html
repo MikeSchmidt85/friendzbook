@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    <title>Edit</title>
+</head>
+
+<body>
+    <div class="top">
+        <h1>Welcome to friendzBook {{ user.first_name }}</h1>
+        <a href="/settings" id="settings">Settings</a>
+    </div>
+
+    <nav class="nav">
+        <a href="/dashboard" class="logout">Home</a>
+        <p>My Profile</p>
+        <a href="" class="logout">Edit Profile</a>
+        <a href="logout" class="logout">Logout</a>
+    </nav>
+
+    <div>
+        <form action="/updated" method="get">
+            <h2>Basic Info</h2>
+            <p>First Name:</p>
+            <input type="text" name="first_name" id="first_name" />
+            <p>Last Name:</p>
+            <input type="text" name="last_name" id="last_name" />
+            <p>City:</p>
+            <input type="text" name="last_name" id="last_name" />
+            <p>Please select your Gender:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">Male</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">Female</label><br>
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">Non-binary</label><br><br>
+            <div>
+                <h2>About Me!</h2>
+                <p>Education:</p>
+                <input type="text" name="first_name" id="first_name" />
+                <p>Work:</p>
+                <input type="text" name="last_name" id="last_name" />
+            </div>
+            <p><button>Update</button></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

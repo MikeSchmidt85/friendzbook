@@ -1,0 +1,29 @@
+#navbar{    
+    font-size: 20px;
+    background-color: palegreen;
+    background-size: 100px;
+    display: space-between;
+}
+
+#center_top{
+    display: flex;
+    justify-content: center;
+}
+
+.register{
+    margin: 10px;
+}
+
+.body{
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    margin-left: 37%;
+    text-decoration: underline;
+    width: 500px
+
+}
+
+.login{
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    <title>Settings</title>
+</head>
+<body>
+    <div class="top">    
+        <h1>Welcome to friendzBook {{ user.first_name }}</h1>
+        <a href="/settings" id="settings">Settings</a>
+    </div>
+
+    <nav class="nav">
+        <a href="/dashboard" class="logout">Home</a>
+        <p>My Profile</p>
+        <a href="" class="logout">Edit Profile</a>
+        <a href="{{ url_for('logout') }}" class="logout">Logout</a>
+    </nav>
+
+    
+</body>
+</html>

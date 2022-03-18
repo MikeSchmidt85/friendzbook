@@ -1,0 +1,203 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#settings{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.nav{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logout{
+    color: red;
+    padding-top: 15px;
+    
+
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    padding: 10px;
+}
+
+.container2{
+    padding: 10px;
+}
+.card1{
+    margin: 10px;
+}
+
+#top{
+    background-color: turquoise;
+    width: 704px;
+    height: 100px;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+
+}
+
+#bottom{
+    background-color: white;
+    width: 700px;
+    height: 225px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+#head2{
+    margin-top: -20px;
+}
+
+#bottom2{
+    margin-left:10px ;
+}
+
+#para{
+    margin-top: -15px;
+}
+
+#edit{
+    margin-bottom: 4px;
+}
+
+.card2{
+    margin: 10px;
+}
+
+#top2{
+
+    background-color: blue;
+    width: 704px;
+    height: 100px;
+
+}
+
+.about{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.about{
+    padding-left: 20px;
+}
+
+.conn{
+    width: 50px;
+    height: 500px;
+}
+
+
+#top4{
+
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+
+}
+
+#botleft{
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+#botright{
+    background-color: white;
+    width: 376px;
+    height: 325px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+
+}
+
+#topright{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.feed{
+display: flex;
+justify-content: center;
+padding-top: 20px;;
+}
+
+#newsfeed{
+    background-color: blue;
+    width: 600px;
+    height: 100px;
+}
+
+#undernews{
+    background-color: white;
+    width: 576px;
+    height: 150px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+
+#updates{
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+}
+
+
+
+#two{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+
+#five{
+
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+#last{
+    width: 391px;
+    height: 60px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}

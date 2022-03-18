@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index_style.css') }}">
+    <title>Registration/Login Form</title>
+</head>
+
+<body><div id="navbar">
+    <h1 id="friend">friendzBook</h1>
+    <p id="center_top">A place for you and your close friends</p>
+</div>
+    <div class="body">
+        <div class="register">
+            <form action="/register" method="post">
+                <h2>Register</h2>
+                <p>First Name:</p>
+                <input type="text" name="first_name" id="first_name" />
+                <p>Last Name:</p>
+                <input type="text" name="last_name" id="last_name" />
+                <p>Email:</p>
+                <input type="text" name="email" id="email" />
+                <p>Password:</p>
+                <input type="password" name="password" id="password" />
+                <p>Confirm password:</p>
+                <input type="password" name="confirm_password" id="" />
+                <p><button>Register</button></p>
+            </form>
+        </div>
+
+        <div class="login">
+            <form action="/login" method="post">
+                <h2>Log In</h2>
+                <p>Email:</p>
+                <input type="text" name="email" id="email" />
+                <p>Password:</p>
+                <input type="password" name="password" id="" />
+                <p><button>Log In</button></p>
+            </form>
+        </div>
+        {% with messages = get_flashed_messages() %} 
+        {% if messages %}
+        <div class="alert alert-danger" role="alert">
+            {% for message in messages %}
+            <p>{{message}}</p>
+            {% endfor %}
+        </div>
+        {% endif %} 
+        {% endwith %}
+    </div>
+</body>
+</html>
