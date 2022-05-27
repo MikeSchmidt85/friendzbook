@@ -11,4 +11,3 @@
   MySQL<br/>
   Bcrypt<br/>
 </p>
- 
